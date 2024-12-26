@@ -1,0 +1,338 @@
+:root{
+    --e-global-color-primary: #FFDD00;
+    --e-global-color-secondary: #D10913;
+    --e-global-color-text: #303841;
+    --e-global-color-accent: #EEEEEE;
+    --e-global-color-e777cd9: #FFFFFF;
+    --e-global-color-e632858: #FFFFFF00;
+    --e-global-color-cff305b: #EDEEF7;
+    --e-global-color-d59e8a8: #DDDDDD;
+    --e-global-color-9947692: #FFFFFFD1;
+    --e-global-color-7e293d1: #22283170;
+    --e-global-color-d217bf6: #343D48;
+    --e-global-color-a3ce699: #EAE9E9;
+    --e-global-color-e9c5ff0: #F9F9F9;
+    --e-global-typography-primary-font-family: "Montserrat";
+    --e-global-typography-primary-font-size: 80px;
+    --e-global-typography-primary-font-weight: 700;
+    --e-global-typography-primary-line-height: 90px;
+    --e-global-typography-primary-letter-spacing: -1.5px;
+    --e-global-typography-secondary-font-family: "Montserrat";
+    --e-global-typography-secondary-font-size: 24px;
+    --e-global-typography-secondary-font-weight: 500;
+    --e-global-typography-secondary-line-height: 36px;
+    --e-global-typography-secondary-letter-spacing: 0px;
+    --e-global-typography-text-font-family: "Montserrat";
+    --e-global-typography-text-font-size: 17px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 28px;
+    --e-global-typography-text-letter-spacing: 0.5px;
+    --e-global-typography-accent-font-family: "Montserrat";
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-accent-font-weight: 600;
+    --e-global-typography-accent-line-height: 24px;
+    --e-global-typography-accent-letter-spacing: 0.15px;
+    --e-global-typography-87350ce-font-family: "Montserrat";
+    --e-global-typography-87350ce-font-size: 16px;
+    --e-global-typography-87350ce-font-weight: 700;
+    --e-global-typography-87350ce-line-height: 16px;
+    --e-global-typography-87350ce-letter-spacing: 0.15px;
+    --e-global-typography-784143b-font-family: "Montserrat";
+    --e-global-typography-784143b-font-size: 14px;
+    --e-global-typography-784143b-font-weight: 600;
+    --e-global-typography-784143b-text-transform: uppercase;
+    --e-global-typography-784143b-line-height: 28px;
+    --e-global-typography-784143b-letter-spacing: 0.25px;
+    --e-global-typography-8352cd5-font-family: "Montserrat";
+    --e-global-typography-8352cd5-font-size: 50px;
+    --e-global-typography-8352cd5-font-weight: 700;
+    --e-global-typography-8352cd5-line-height: 60px;
+    --e-global-typography-8352cd5-letter-spacing: -0.5px;
+    --e-global-typography-4353ebc-font-family: "Montserrat";
+    --e-global-typography-4353ebc-font-size: 40px;
+    --e-global-typography-4353ebc-font-weight: 700;
+    --e-global-typography-4353ebc-line-height: 50px;
+    --e-global-typography-4353ebc-letter-spacing: 0px;
+    --e-global-typography-d4f69a8-font-family: "Montserrat";
+    --e-global-typography-d4f69a8-font-size: 32px;
+    --e-global-typography-d4f69a8-font-weight: 700;
+    --e-global-typography-d4f69a8-line-height: 40px;
+    --e-global-typography-d4f69a8-letter-spacing: 0.25px;
+    --e-global-typography-326df42-font-family: "Montserrat";
+    --e-global-typography-326df42-font-size: 24px;
+    --e-global-typography-326df42-font-weight: 700;
+    --e-global-typography-326df42-line-height: 30px;
+    --e-global-typography-326df42-letter-spacing: 0.1px;
+    --e-global-typography-49ea2e1-font-family: "Montserrat";
+    --e-global-typography-49ea2e1-font-size: 20px;
+    --e-global-typography-49ea2e1-font-weight: 700;
+    --e-global-typography-49ea2e1-line-height: 28px;
+    --e-global-typography-49ea2e1-letter-spacing: 0px;
+    --e-global-typography-6524214-font-family: "Montserrat";
+    --e-global-typography-6524214-font-size: 14px;
+    --e-global-typography-6524214-font-weight: 600;
+    --e-global-typography-6524214-text-transform: uppercase;
+    --e-global-typography-6524214-line-height: 22px;
+    --e-global-typography-6524214-letter-spacing: 0.15px;
+    --e-global-typography-bab4471-font-family: "Montserrat";
+    --e-global-typography-bab4471-font-size: 17px;
+    --e-global-typography-bab4471-font-weight: 400;
+    --e-global-typography-bab4471-line-height: 12px;
+    --e-global-typography-bab4471-letter-spacing: 0.5px;
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: var(--e-global-typography-text-line-height);
+    letter-spacing: var(--e-global-typography-text-letter-spacing);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: contain;
+    --border-radius: 0;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    --border-style: initial;
+    --border-color: initial;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --content-width: min(100%, var(--container-max-width, 1140px));
+    --width: 100%;
+    --min-height: initial;
+    --height: auto;
+    --text-align: initial;
+    --margin-top: 0px;
+    --margin-right: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --position: relative;
+    --z-index: revert;
+    --overflow: visible;
+    --gap: var(--widgets-spacing, 20px);
+    --overlay-mix-blend-mode: initial;
+    --overlay-opacity: 1;
+    --overlay-transition: 0.3s;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    position: var(--position);
+    width: var(--width);
+    min-width: 0;
+    min-height: var(--min-height);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    z-index: var(--z-index);
+    overflow: var(--overflow);
+    transition: background var(--background-transition, .3s), border var(--border-transition, .3s), box-shadow var(--border-transition, .3s), transform var(--e-con-transform-transition-duration, .4s);
+    --flex-wrap-mobile: wrap;
+    margin-block-start: var(--margin-block-start);
+    margin-inline-end: var(--margin-inline-end);
+    margin-block-end: var(--margin-block-end);
+    margin-inline-start: var(--margin-inline-start);
+    padding-inline-start: var(--padding-inline-start);
+    padding-inline-end: var(--padding-inline-end);
+    --margin-block-start: var(--margin-top);
+    --margin-block-end: var(--margin-bottom);
+    --margin-inline-start: var(--margin-left);
+    --margin-inline-end: var(--margin-right);
+    --padding-inline-start: var(--padding-left);
+    --padding-inline-end: var(--padding-right);
+    --padding-block-start: var(--padding-top);
+    --padding-block-end: var(--padding-bottom);
+    --border-block-start-width: var(--border-top-width);
+    --border-block-end-width: var(--border-bottom-width);
+    --border-inline-start-width: var(--border-left-width);
+    --border-inline-end-width: var(--border-right-width);
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+*, body, html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a, button{
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-nav ul{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+.main-nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.main-nav ul li:nth-child(1){
+    margin-left: 0px;
+}
+.main-nav ul li a{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.main-nav ul li a:hover{
+    color: var(--e-global-color-primary);
+    transform: scale(200%);
+    z-index: 1;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.menu a{
+    color: #fff;
+}
+.menu a:hover{
+    color: var(--e-global-color-primary);
+}
+.menu a.search{
+    color: var(--e-global-color-secondary)
+}
+.doc{
+    background-color: var(--e-global-color-primary);
+    color: #D10913;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 20px 0px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+.container{
+    width: 100%;
+    max-width: var(--content-width);
+    margin: auto;
+}
+header{
+    background: var(--e-global-color-d217bf6);
+    height: 65px;
+}
+footer{
+    background: var(--e-global-color-d217bf6);
+    padding: 50px 0px;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    transition: all 0.3s;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+footer .column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+footer h4{
+    font-size: 24px;
+}
+footer .column:nth-child(2) a{
+    margin: 10px 0px;
+}
+footer a:hover{
+    color: var(--e-global-color-primary);
+}
+.blog-posts-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px 20px;
+}
+.copyright{
+    font-size: 12px;
+    margin-top: auto;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #f6f6f6;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+.item:hover{
+    box-shadow: 2px 5px 25px #343D48dd;
+    transform: scale(1.05);
+    z-index: 1;
+}
+.item .content h2{
+    font-size: 18px;
+    color: var(--e-global-color-text);
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.item img{
+    width: 100%;
+    max-height: 493px;
+    border-radius: 25px;
+}
+.item .content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+}
+.item .content .time{
+    font-size: 12px;
+    color: #adadad;
+    margin-top: auto;
+}
+.cta{
+    margin: 60px 0px;
+}
+.cta h3{
+    width: 100%;
+    text-align: center;
+    color:#303841;
+    font-size: 24px;
+    margin: 20px 0px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form input{
+    width: 28%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid;
+    color: var(--e-global-color-text);
+    border-radius: 30px 30px 30px 30px;
+}
+form textarea{
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid;
+    color: var(--e-global-color-text);
+    border-radius: 30px;
+    resize: none;
+}
+form button{
+    background-color: var(--e-global-color-secondary);
+    color: #ffffff;
+    margin: 10px 10px 10px auto;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: var(--e-global-color-primary);
+}
